@@ -28,6 +28,15 @@ module.exports.config = {
                 user: '',
                 password: ''
             }, */
+              headline: 'headline.js',
+             tmpfolder: 'tmp/',
+             mongo: {
+                 host: 'localhost',
+                 port: '27017',
+                 db: 'championgg',
+                 user: '',
+                 password: '',
+             },
             queue: {
                 prefix: 'championggQ_',
                 host: 'localhost',
