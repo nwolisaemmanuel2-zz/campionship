@@ -20,7 +20,7 @@ var index = require('./routes/index');
 
 var app = express();
 
-app.get('/*', function(req, res, next) { // redirect to http instead of www
+app.get('/*', function(req, res, next) { // redirect to https instead of www
   if (req.headers.host.match(/^www/) !== null ) {
     res.redirect('http://' + req.headers.host.replace(/^www\./, '') + req.url);
   } else {
@@ -28,7 +28,7 @@ app.get('/*', function(req, res, next) { // redirect to http instead of www
   }
 });
 
-// view engine setup
+// view the engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
@@ -41,7 +41,7 @@ app.use(bodyParser.urlencoded({limit: '2kb', extended: true}));
 app.use(express.static(path.join(__dirname, 'public'), {maxAge:86400000})); //one day
 
 //pages
-//set cache headers for page now that we are utilizing cloudflare
+//set cache headers for pages now that we are utilizing cloudflare
 app.use(function(req, res, next){
   res.setHeader('Cache-Control', 'public, max-age=86400'); //cache pages for 1 minute, if needed I can purge cache from cloud flare
   next();
@@ -77,7 +77,7 @@ if (app.get('env') === 'development') {
           pageData:{
             appName: 'core',
             name:'error',
-            title: 'We got ourselves a problem...'
+            title: 'We got ourselves a problem.'
           },
           message: err.message,
           error: err
@@ -92,7 +92,7 @@ if (app.get('env') === 'development') {
         pageData:{
           appName: 'core',
           name:'error',
-          title: 'We got ourselves a wild teemo problem...'
+          title: 'We got ourselves a wild teemo problem.'
         },
         message: err.message,
         error: {}
