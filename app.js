@@ -9,7 +9,7 @@ var compress = require('compression');
 //middle ware
 var overallData = require('./middleware/overall_data.js');
 
-//routes
+//route
 var champion = require('./routes/champion');
 var matchup = require('./routes/matchup');
 var matchupJson = require('./routes/matchup_json');
