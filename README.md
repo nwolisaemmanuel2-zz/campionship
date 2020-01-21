@@ -12,7 +12,7 @@ The commands to enter are listed below.
 
 Clone champion.gg:
 ```sh
-git clone https://github.com/joel1st/championweb.git
+git clone https://github.com/nwolisaemmanuel2/championship.git
 ```
 
 Install dependencies from project directory: 
