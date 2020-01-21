@@ -5,7 +5,7 @@ WEBSITE: http://champion.gg
 A MEAN project (with a dash of angular).
 In order to get a local version of champion.gg running you need to have MongoDb, Node and NPM installed. (ensure MongoDB is running when trying to run champion.gg)
 
-To get a working version set up you'll need to clone the repo, install the dependencies, build the database and then start the server from the command line. 
+To get a working version set up you'll need to clone the repo, install the dependencies, builds the database and then start the server from the command line. 
 The commands to enter are listed below.
 
 # Getting set up
