@@ -7,5 +7,5 @@ mongoose.connect(process.env.MONGO_DB || 'mongodb://localhost/championgg');
 db.on('error', console.error.bind(console, 'connection error:'));
 
 db.once('open', function () {
-	//console.log('Connection Made!');
+	console.log('connection mode!');
 });
