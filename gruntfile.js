@@ -1,4 +1,5 @@
 module.exports = function(grunt){
+	//"use stricts";
 	"use strict";
 	require("matchdep").filterDev("grunt-*").forEach(grunt.loadNpmTasks);
 
@@ -64,5 +65,6 @@ module.exports = function(grunt){
     });
 	
 	grunt.registerTask('production', ['concat', 'uglify','cssmin']);
+	//grunt.registertask('default', []);
 	grunt.registerTask('default', []);
 };
