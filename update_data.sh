@@ -1,5 +1,5 @@
 defaultmsg="updated data"
-read -p "Please enter a git message (default : '$defaultmsg'):" gitmsg
+read -p "Please enter git message (default : '$defaultmsg'):" gitmsg
 if [ "$gitmsg" == "" ]; then
 	gitmsg="$defaultmsg"
 fi
