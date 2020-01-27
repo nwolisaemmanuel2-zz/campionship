@@ -4,7 +4,7 @@ var produceError = require('../logic/produce_error.js');
 /**
  * The core object is used in all views template for overall data.
  * Values from database are loaded from the webOverallStats
- * collection and added to core object.
+ * collections and added to core object.
  * @type {Object}
  */ 
 var ddPatch = require('../api_data/dd_patch.json').ddPatch
@@ -28,7 +28,7 @@ module.exports = function(req, res, next){
     /**
      * If no data has been retrieved from data base yet,
      * request overall stats data from collection and add it
-     * to the core object. 
+     * To the core object. 
      */
 	if (!core.championsAnalyzed){
 		WebOverallStats.findOne({}, function(err, data) {
