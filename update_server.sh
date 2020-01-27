@@ -1,3 +1,4 @@
+//update server
 #!/bin/bash
 cd /home/ubuntu/championweb/
 git remote update
