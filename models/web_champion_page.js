@@ -1,3 +1,4 @@
+/* connect */
 var mongoose = require('mongoose');
 
 var webChampionPage = new mongoose.Schema({
