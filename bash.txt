@@ -30,6 +30,6 @@ NODE_ENV=updating pm2 start www.js -i max
 NODE_ENV=serverUpdate pm2 start www.js -i max
 
 
-UPDATES=aggregation node performUpdate
+UPDATE=aggregation node performUpdate
 
 mongodump --db leaguetimes --collection votes
