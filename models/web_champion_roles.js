@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 /**
- * Used to build up the long champ list on the homepage and the 
+ * Used to build up the long champ list on the homepage and
  * individual champion roles on the left hand side of the champion pages.
  */
 var webChampionRoles = new mongoose.Schema({
