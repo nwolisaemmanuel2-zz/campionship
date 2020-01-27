@@ -1,3 +1,5 @@
+/** home pages */
+
 var mongoose = require('mongoose');
 
 var webHomePageSummaries = new mongoose.Schema({
