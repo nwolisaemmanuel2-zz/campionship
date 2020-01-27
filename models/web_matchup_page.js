@@ -1,3 +1,5 @@
+/** web mactchup*/
+
 var mongoose = require('mongoose');
 
 var webMatchupPage = new mongoose.Schema({
@@ -25,12 +27,12 @@ var webMatchupPage = new mongoose.Schema({
 		champ1:{
 			val: Number,
 			change: Number,
-			score: Number //score to use is champ 1 is quering page
+			score: Number //score to use is champ 1 is quering pages
 		},
 		champ2:{
 			val: Number,
 			change: Number,
-			score: Number //score to use if champ 2 is quering page
+			score: Number //score to use if champ 2 is quering pages
 		},
 	}],
 	championMatrix:{
