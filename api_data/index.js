@@ -1,3 +1,5 @@
+/** index file */
+
 var items = require('./items');
 var masteries = require('./masteries.json');
 var runes = require('./runes');
