@@ -1,3 +1,5 @@
+/** server */
+
 sudo npm install
 mongorestore --db championgg --collection webchampionpages --drop db/championgg/webchampionpages.bson
 mongorestore --db championgg --collection webchampionroles --drop db/championgg/webchampionroles.bson
