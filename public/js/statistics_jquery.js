@@ -1,4 +1,5 @@
 // jquery
+
 (function($){
   var $fixedHeader = $("#header-fixed");
   var $table = $("#table-1");
