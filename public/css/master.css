@@ -1,7 +1,6 @@
 body{
   position:relative;
 }
-
 .tooltip-hover{
       z-index:88888888888;
       position:absolute;
