@@ -1,3 +1,4 @@
+
 (function(angular, matchupData, sortData, radarChartSettings, lineChartSettings) {
 
     var appChampion = angular.module('championPage', ['tc.chartjs', 'dirDisqus', 'core', 'ui.bootstrap']);
