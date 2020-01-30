@@ -1,4 +1,5 @@
 // angular
+
 (function(angular, matchupData) {
 
     var statsApp = angular.module('statsPage', ['core']);
