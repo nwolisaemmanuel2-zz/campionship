@@ -1,6 +1,6 @@
 var radarChartSettings = {
     responsive: true,
-    //Boolean - If we show the scale above the chart data     
+    //Boolean - If we show the scale above the charts data     
     scaleOverlay: false,
 
     tooltipFillColor: "rgba(0,0,0,0)",
