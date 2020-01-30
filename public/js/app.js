@@ -1,3 +1,4 @@
+
 var sortData = function(champ1, champ2, position) {
 	champ1 = matchupData.championList[champ1].id;
 	champ2 = matchupData.championList[champ2].id;
