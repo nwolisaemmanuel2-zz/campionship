@@ -2,6 +2,7 @@
 
     var appMatchup = angular.module('matchupPage', ['tc.chartjs', 'dirDisqus', 'core']);
 
+   
     appMatchup.controller('matchupGraphs', ['$scope', function($scope) {
         $scope.champComparison = {
             data: {
