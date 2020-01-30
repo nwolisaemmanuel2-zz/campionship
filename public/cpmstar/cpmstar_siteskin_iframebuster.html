@@ -5,7 +5,7 @@
 </head>
 <body>
 <script type="text/javascript">
-    if (!window.JSON) { //for older browser support: see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON
+    if (!window.JSON) { // older browser support: see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON
         window.JSON = {
             parse: function (sJSON) { return eval("(" + sJSON + ")"); },
             stringify: function (vContent) {
