@@ -1,4 +1,4 @@
-/* GET users listing. */
+/** GET users listing. */
 "use strict";
 var WebMatchupPage = require('../models/web_matchup_page.js');
 var produceError = require('../logic/produce_error.js');
