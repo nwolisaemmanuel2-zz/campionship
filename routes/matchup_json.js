@@ -1,4 +1,4 @@
-/* GET users listing. */
+/* GET users  listing. */
 "use strict";
 var WebMatchupPage = require('../models/web_matchup_page.js');
 var roleHashTable = require('../logic/role_hash_table.js');
