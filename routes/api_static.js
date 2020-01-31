@@ -36,7 +36,7 @@ router.get('/items/:id', function(req, res) {
 
 
 /**
- * Route set up for when we add indepth summoner spell information
+ * Route set up for when we add indepth summoner  spell information
  * --> not currently used.
  */
 router.get('/summoners/:id', function(req, res) {
