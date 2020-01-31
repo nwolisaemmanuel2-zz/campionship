@@ -1,3 +1,4 @@
+
 "use strict";
 var WebStatisticsPage = require('../models/web_statistics_page.js');
 var produceError = require('../logic/produce_error.js');
