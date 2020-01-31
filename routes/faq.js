@@ -7,7 +7,7 @@ router.get('/', function(req, res) {
         pageData: {
             appName: 'core',
             name: 'faq',
-            title: 'All your questions answered here!'
+            title: 'All your questions answer here!'
         }
     });
 });
