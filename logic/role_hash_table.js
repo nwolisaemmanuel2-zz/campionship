@@ -3,6 +3,7 @@
  * The varius role keys and values.
  * Used for determining legitimate roles for champion page routes.
  */
+
 var roleList = {
 	'Top': 'TOP',
 	'Middle': 'MIDDLE',
