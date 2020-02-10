@@ -1,4 +1,3 @@
-
 "use strict";
 var WebChampionRoles = require('../models/web_champion_roles.js');
 var WebHomePageSummaries = require('../models/web_home_page_summaries.js');
@@ -13,6 +12,7 @@ router.get('/', function(req, res, next) {
     var champData = [];
     var summaries = [];
 
+   
     function responseObj() {
         res.render('index', {
             summaries: summaries,
