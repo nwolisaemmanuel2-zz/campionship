@@ -1,6 +1,5 @@
 "use strict";
 var champList = require('../api_data/champions.json');
-
 /**
  * Converts the champion list keys to lower case. It then compares
  * the input to see if there is a match. (this is useful for checking,
