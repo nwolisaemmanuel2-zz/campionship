@@ -14,6 +14,7 @@ var router = express.Router();
  * pageData sets the general page info for the  current route.
  * For example - championPage is the name of the angular module.
  */
+
 var pageData = {
     appName: 'championPage',
     name: 'champion',
