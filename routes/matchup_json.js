@@ -4,7 +4,6 @@ var WebMatchupPage = require('../models/web_matchup_page.js');
 var roleHashTable = require('../logic/role_hash_table.js');
 var express = require('express');
 var router = express.Router();
-
 router.get('/:champ1/:champ2/:role', function(req, res) {
 
     var champ1 = req.params.champ1;
