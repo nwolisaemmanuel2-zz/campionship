@@ -5,7 +5,6 @@ var errors = {
     serverMaintenance: 'For some reason we couldn\'t get the page to load - Chances are we\'re working on updating data - if it isn\'t fixed in the next few minutes please let us know!',
     invalidMatchup: 'That appears to be an invalid or old matchup!'
 };
-
 /**
  * A function for generating errors. 
  * @param  {string} errorType  - the key for the error type (which corresponds with the keys 
