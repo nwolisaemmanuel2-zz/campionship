@@ -41,7 +41,7 @@ You can now access champion.gg on http://localhost/ or if you set a port number 
 
 # Development 
 
-In order to work on champion.gg more effectively I have created a grunt tasks to facilitate automation of javascript hinting (helps avoid nasty javascript errors).
+In order to work on champion.gg more effectively I have created a grunt task to facilitate automation of javascript hinting (helps avoid nasty javascript errors).
 ```sh
 grunt watch
 ```
