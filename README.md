@@ -46,7 +46,7 @@ In order to work on champion.gg more effectively I have created a grunt tasks to
 grunt watch
 ```
 
-To get assets ready for production:
+To get asset ready for production:
 ```sh
 grunt production
 ```
