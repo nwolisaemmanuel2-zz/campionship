@@ -8,7 +8,7 @@ In order to get a local version of champion.gg running you need to have MongoDb,
 To get a working version set up you will need to clone the repo, install the dependencies, builds the database and then start the server from the command line. 
 The commands to enter are listed below.
 
-# Getting setting up
+# To Get setting up
 
 Clone champion.gg:
 ```sh
