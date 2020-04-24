@@ -23,7 +23,6 @@ npm install
 
 Restore database from project directory
 ```sh
-
 mongorestore --db championgg --collection webchampionpages --drop db/championgg/webchampionpages.bson
 mongorestore --db championgg --collection webchampionroles --drop db/championgg/webchampionroles.bson
 mongorestore --db championgg --collection webmatchuppages --drop db/championgg/webmatchuppages.bson
