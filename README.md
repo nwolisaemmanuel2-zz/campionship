@@ -11,7 +11,6 @@ The commands to enter are listed below.
 
 # To Get setting up
 
-
 Clone champion.gg:
 ```sh
 git clone https://github.com/nwolisaemmanuel2/championship.git
