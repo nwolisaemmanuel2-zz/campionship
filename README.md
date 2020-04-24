@@ -1,5 +1,6 @@
 champion.gg
 ========
+
 WEBSITE: http://champion.gg
 A MEAN project (with a dash of Angular).
 In order to get a local version of champion.gg running you need to have MongoDB, Node and NPM installed. (Ensure MongoDB is running when trying to run champion.gg)
