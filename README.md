@@ -8,7 +8,6 @@ In order to get a working version set up you will need to clone the repo, instal
 
 The commands to enter are listed below.
 
-
 # To Get setting up
 
 Clone champion.gg:
