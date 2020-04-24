@@ -20,7 +20,6 @@ Install dependencies from project directory:
 ```sh
 npm install
 ```
-
 Restore database from project directory
 ```sh
 mongorestore --db championgg --collection webchampionpages --drop db/championgg/webchampionpages.bson
