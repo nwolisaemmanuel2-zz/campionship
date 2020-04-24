@@ -1,4 +1,4 @@
-champion.gg
+Champion.gg
 ========
 WEBSITE: http://champion.gg
 A MEAN project (with a dash of Angular).
