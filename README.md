@@ -49,5 +49,6 @@ grunt watch
 
 To get asset ready for production:
 ```sh
+
 grunt production
 ```
